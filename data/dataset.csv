@@ -1,0 +1,153 @@
+text,category
+"Patient admitted for severe abdominal pain and prescribed antibiotics.","medical"
+"Budget planning and quarterly financial goals were discussed.","finance"
+"Meeting notes from the software development sprint planning.","notes"
+"Terms and conditions outlined in the lease agreement.","legal"
+"Discussion on AI trends in current technology landscape.","other"
+"Final exam notes on electromagnetism and thermodynamics.","notes"
+"Details of tax return submission and documentation.","finance"
+"Diagnosis of acute bronchitis based on X-ray findings.","medical"
+"Court hearing notes regarding breach of contract case.","legal"
+"Recap of today's lecture on quantum computing.","notes"
+"Investigation of medical insurance fraud claims.","medical"
+"Outline of employee handbook and HR policies.","legal"
+"Investment strategy and portfolio diversification tips.","finance"
+"Meeting summary about project deadlines and risks.","notes"
+"Judgment details in a recent intellectual property dispute.","legal"
+"Analysis of inflation trends over past fiscal year.","finance"
+"Summary of biological processes from class today.","notes"
+"Report on market regulation policies in global trade.","other"
+"Prescription for chronic migraine medication.","medical"
+"Review of GDPR and digital rights regulations.","legal"
+"Weekly notes on algorithms and data structures.","notes"
+"Diagnosis and treatment of hypertension.","medical"
+"Banking sector risk analysis and mitigation plan.","finance"
+"Overview of new business models in e-commerce.","other"
+"Meeting notes on classroom management strategies.","notes"
+"Legal procedures in consumer protection cases.","legal"
+"Steps involved in organ donation process.","medical"
+"Investor report on recent stock performance.","finance"
+"Summary of industrial revolution history.","other"
+"Insurance claim evaluation form and checklist.","finance"
+"Lecture notes on world war strategies and impacts.","notes"
+"Case study on patient recovery after surgery.","medical"
+"Details on credit card fraud investigation.","legal"
+"Overview of deep learning vs traditional ML.","other"
+"Session notes from writing workshop.","notes"
+"Annual financial report for internal audit.","finance"
+"Drug prescription details for diabetic patient.","medical"
+"Notes from a team discussion on UI improvements.","notes"
+"Bank regulations around loan disbursement.","finance"
+"Legal terms involved in a partnership agreement.","legal"
+"Recap of today's machine learning lab.","other"
+"Diagnosis of viral infection in outpatient.","medical"
+"Summary of court's decision in land dispute.","legal"
+"Health report and lab test results discussion.","medical"
+"Review of central bank monetary policies.","finance"
+"Weekly update from the editorial content team.","notes"
+"Presentation on future of quantum AI.","other"
+"Legal process for immigration approval.","legal"
+"Doctor's notes on allergy treatment plan.","medical"
+"Investment insights for young professionals.","finance"
+"Reminder: Biology notes due tomorrow after class.",Notes
+"Submit your PAN card details to process your loan.",Finance
+"Doctor advised MRI scan for persistent headaches.",Medical
+"Legal notice served for delayed rent payment.",Legal
+"Vaccination certificate available on government portal.",Certificates
+"Prescription: Ibuprofen 400mg twice a day after meals.",Medical
+"Semester 2 chemistry practical notes uploaded.",Notes
+"Loan repayment schedule updated on the portal.",Finance
+"Download your birth certificate from the civic site.",Certificates
+"The lawyer asked for property registration documents.",Legal
+"Final year project notes shared in the drive.",Notes
+"Bank account summary for May 2024 attached.",Finance
+"CT scan results show minor internal inflammation.",Medical
+"Marriage certificate issued on 15th March.",Certificates
+"Notice: Apartment eviction date confirmed legally.",Legal
+"Lecture notes: Artificial Intelligence week 3.",Notes
+"Investment statement for mutual funds enclosed.",Finance
+"Medical report indicates low hemoglobin levels.",Medical
+"Death certificate submitted to insurance company.",Certificates
+"Legal agreement needs both parties to sign.",Legal
+"Maths notes updated after last week’s lecture.",Notes
+"EMI payment schedule for your car loan shared.",Finance
+"Doctor recommended physiotherapy for 3 weeks.",Medical
+"Download your migration certificate before deadline.",Certificates
+"New civil case filed under section 143.",Legal
+"Student notes on environmental science topic 4.",Notes
+"Credit card bill statement generated.",Finance
+"Patient's BP under control; continue current dosage.",Medical
+"Provisional certificate is now available online.",Certificates
+"Tenant filed a legal complaint regarding harassment.",Legal
+"Notes for economics unit 5 are now available.",Notes
+"Bank issued a new cheque book upon request.",Finance
+"Blood test suggests high cholesterol level.",Medical
+"Download your caste certificate from MP portal.",Certificates
+"Land dispute case hearing postponed to next week.",Legal
+"Summarized notes of physics unit 7 shared.",Notes
+"Home loan documents verified by branch officer.",Finance
+"Patient admitted for appendicitis surgery.",Medical
+"Degree certificate dispatched via speed post.",Certificates
+"Legal will registration scheduled next Monday.",Legal
+"English literature notes updated with extra questions.",Notes
+"Finance team released Q1 performance report.",Finance
+"Diagnosis: Mild pneumonia, medication prescribed.",Medical
+"Certificate of excellence awarded to top performers.",Certificates
+"Legal hearing documents to be submitted by 30th.",Legal
+"Digital notes for programming lab uploaded.",Notes
+"GST return filing deadline is 20th of this month.",Finance
+"ENT specialist advised nasal spray and rest.",Medical
+"Transfer certificate ready for collection.",Certificates
+"Case dismissed due to lack of evidence.",Legal
+text,category
+"Patient reported dizziness and blurred vision; prescribed metoprolol 25mg daily.",Medical
+"Blood pressure: 150/90 mmHg. Advised dietary changes and exercise.",Medical
+"Diagnosis: Type 2 Diabetes. Treatment plan includes metformin.",Medical
+"X-ray indicates hairline fracture in the right wrist.",Medical
+"Prescribed antibiotics for upper respiratory tract infection.",Medical
+"Annual check-up: normal BMI, cholesterol slightly elevated.",Medical
+"Allergy test confirmed sensitivity to peanuts and shellfish.",Medical
+"CT scan shows no abnormalities in brain structure.",Medical
+"Patient recovering well post-appendectomy.",Medical
+"Medical history includes hypertension and chronic bronchitis.",Medical
+"Bank statement for July 2023 shows debit of ₹25,000 from savings.",Finance
+"Mutual fund NAV dropped by 1.3% over the last quarter.",Finance
+"Credit card due amount: ₹12,842. Payment deadline: 5th Aug.",Finance
+"Income Tax Return filed for AY 2024-25 under ITR-1.",Finance
+"Fixed deposit interest credited to account ending 7381.",Finance
+"Account summary: Opening balance ₹1,00,000. Closing: ₹1,24,300.",Finance
+"Monthly EMI for car loan ₹9,245 auto-debited on 3rd.",Finance
+"Stock purchase: 20 shares of Reliance at ₹2,500 each.",Finance
+"Insurance premium receipt for ₹5,230. Valid till Jan 2026.",Finance
+"GST filing status: Filed and acknowledged for Q1.",Finance
+"This contract is made under the Indian Contract Act, 1872.",Legal
+"Party A agrees to transfer ownership to Party B effective immediately.",Legal
+"Affidavit signed before magistrate under oath.",Legal
+"Notice served under Section 80 of the Civil Procedure Code.",Legal
+"Agreement subject to arbitration in case of dispute.",Legal
+"Lease deed executed for 11 months with registered stamp.",Legal
+"Clause 12 states termination can occur with 30 days' notice.",Legal
+"Legal heir certificate requested post demise of Mr. Sharma.",Legal
+"RTI filed under Act 2005 seeking public records.",Legal
+"Power of Attorney granted to Mr. Vinod for all transactions.",Legal
+"Zoher Shakir | B.Tech CSE | Python, SQL, HTML | 2025 Graduate",Notes
+"Software Developer Intern at XYZ Pvt. Ltd. | June–August 2024",Notes
+"Projects: Personal Portfolio Website, Machine Learning Classifier",Notes
+"Education: SDBC Indore | 2021–2025 | GPA: 8.9",Notes
+"Skills: TensorFlow, MySQL, CSS, Flask, Data Visualization",Notes
+"Awards: Olympiad Rank 1, Inter-school Football Champion",Notes
+"Languages: English, Hindi, Arabic (basic)",Notes
+"LinkedIn: linkedin.com/in/zoher-shakir | GitHub: github.com/ZohairShakir",Notes
+"Objective: To leverage my skills in AI/ML to solve real-world problems.",Notes
+"Interests: Poetry, Chess, Maths, Tech Debates",Notes
+"Reminder: Buy groceries and finish essay by Sunday.",Others
+"To-do: 1. Call dentist. 2. Complete portfolio. 3. Wash shoes.",Others
+"Poem draft: In silence I found the loudest echo.",Others
+"“Don’t forget to carry umbrella” — mom's message",Others
+"Backed up laptop files to external drive.",Others
+"Downloaded Sora AI-generated videos for review.",Others
+"Design inspiration: use card layout and clean grid.",Others
+"Note to self: Apply for internship before August 10.",Others
+"Mind map for ML algorithms and their real-world use.",Others
+"Meeting notes: Add CV prediction feature to dashboard.",Others
+

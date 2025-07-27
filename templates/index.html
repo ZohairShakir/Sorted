@@ -1,0 +1,83 @@
+<head>
+  <title>SORTED (sorting system)</title>
+  <link rel="stylesheet" href="static/style.css">
+  <link rel="icon" href="static/sorted.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<img class="logo" src="static/sorted.png">
+<div class="container">
+  <div class="panel left">
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" id="pdfFolder" name="files" webkitdirectory directory multiple>
+      <button type="submit">Upload Folder</button>
+    </form>
+    <div id="output"></div>
+    <button id="clearBtn">Clear</button>
+  </div>
+
+  <div class="panel right">
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHNzeXFhNzd2emdndno2dWszNGFycTE1MHcweTRsZzByNW9senI2OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MSemvqMIRY3jMcvpd2/giphy.gif" alt="Description of the GIF">   
+   
+    <div id="results"></div>
+  </div>
+</div>
+
+<script>
+document.getElementById("uploadForm").onsubmit = async function (e) {
+  e.preventDefault();
+
+  const formData = new FormData(document.getElementById("uploadForm"));
+
+  try {
+    const response = await fetch('/predict', {
+      method: 'POST',
+      body: formData
+    });
+
+    if (!response.ok) {
+      throw new Error(`Server returned ${response.status}`);
+    }
+
+    const data = await response.json(); // ✅ This is where [object Object] becomes useful
+
+    // Display result properly
+    const outputDiv = document.getElementById("output");
+    outputDiv.innerHTML = ""; // Clear previous output
+
+    for (const [filename, category] of Object.entries(data.predicted)) {
+      const p = document.createElement("p");
+      p.textContent = `${filename}: ${category}`;
+      outputDiv.appendChild(p);
+    }
+ // ✅ Add Download Button
+    const downloadBtn = document.createElement("a");
+    downloadBtn.href = "/download";
+    downloadBtn.textContent = "Download Categorized ZIP";
+    downloadBtn.style.fontFamily = "sans-serif";
+    downloadBtn.style.display = "inline-block";
+    downloadBtn.style.marginTop = "10px";
+    downloadBtn.style.padding = "8px 16px";
+    downloadBtn.style.backgroundColor = "#084cdf";
+    downloadBtn.style.color = "white";
+    downloadBtn.style.textDecoration = "none";
+    downloadBtn.style.borderRadius = "5px";
+    outputDiv.appendChild(downloadBtn);
+
+  } catch (error) {
+    console.error("Error:", error);
+    document.getElementById("output").textContent = "Prediction failed.";
+  }
+};
+document.getElementById('clearBtn').addEventListener('click', function () {
+  // Clear file input
+  document.getElementById('pdfFolder').value = '';
+
+  // Clear output and results areas
+  document.getElementById('output').innerHTML = '';
+  document.getElementById('results').innerHTML = '';
+  
+});
+
+
+</script>
