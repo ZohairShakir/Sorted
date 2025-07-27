@@ -12,6 +12,10 @@
       <input type="file" id="pdfFolder" name="files" webkitdirectory directory multiple>
       <button type="submit">Upload Folder</button>
     </form>
+    <div id="loadingMessage" style="display: none; text-align: center; margin-top: 1rem; font-weight: bold; color: #00d1b2;">
+  📂 Organizing your files...
+</div>
+
     <div id="output"></div>
     <button id="clearBtn">Clear</button>
   </div>
@@ -26,6 +30,7 @@
 <script>
 document.getElementById("uploadForm").onsubmit = async function (e) {
   e.preventDefault();
+    document.getElementById("loadingMessage").style.display = "block";
 
   const formData = new FormData(document.getElementById("uploadForm"));
 
