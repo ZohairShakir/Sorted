@@ -22,7 +22,3 @@
 - **ML Model**: Naive Bayes (Scikit-learn)  
 - **PDF Parsing**: `PyMuPDF` or `pdfminer.six`
 
----
-
-## 📁 Folder Structure
-
