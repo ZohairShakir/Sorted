@@ -16,16 +16,16 @@ We are certainly gonna scale it and also going to train the model on more data s
 
 ## 🚀 Features
 
-- 📄 Upload multiple PDF files at once
-- 🧠 Uses a trained ML model to predict categories
-- 🗃️ Automatically organizes PDFs into categorized folders
-- 🧼 Skips corrupted or empty PDFs and stores them separately
-- 📦 Downloads sorted PDFs as a ZIP archive
-- 🧹 Clear results button and scrollable interface for many files
+-  Upload multiple PDF files at once
+-  Uses a trained ML model to predict categories
+-  Automatically organizes PDFs into categorized folders
+-  Skips corrupted or empty PDFs and stores them separately
+-  Downloads sorted PDFs as a ZIP archive
+-  Clear results button and scrollable interface for many files
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript  
 - **Backend**: Python, Flask  
