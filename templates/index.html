@@ -30,7 +30,7 @@
 <script>
 document.getElementById("uploadForm").onsubmit = async function (e) {
   e.preventDefault();
-    document.getElementById("loadingMessage").style.display = "block";
+  document.getElementById("loadingMessage").style.display = "block";
 
   const formData = new FormData(document.getElementById("uploadForm"));
 
@@ -81,6 +81,7 @@ document.getElementById('clearBtn').addEventListener('click', function () {
   // Clear output and results areas
   document.getElementById('output').innerHTML = '';
   document.getElementById('results').innerHTML = '';
+  document.getElementById("loadingMessage").style.display = "none";
   
 });
 
