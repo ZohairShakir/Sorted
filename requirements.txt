@@ -4,4 +4,4 @@ gunicorn
 pdfminer.six
 scikit-learn
 numpy
-fitz
+PyMuPDF
